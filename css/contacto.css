@@ -1,0 +1,61 @@
+
+  /*contact form*/
+  .noola{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form{
+    padding: 50px 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+  }
+  .group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+label{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(204, 208, 228);
+    border: 2px;
+    color: rgb(70, 69, 69);
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: rgb(39, 39, 39);
+}
+.btnn{
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1b1d1b;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.btnn::hover{
+    background-color: rgb(0, 0, 0);
+}
+@media(max-width:800px){
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+    }
+}
+

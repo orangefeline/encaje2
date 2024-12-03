@@ -1,0 +1,124 @@
+/* Configuración general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #a39f9f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Título principal */
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4A4A4A;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Párrafo introductorio */
+  p {
+    text-align: center;
+    color: #070707;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+  
+  /* Contenedor de imágenes */
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imagenes img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sección de texto de descripción */
+  .texto {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #464343;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .texto h2 {
+    color: #b1aeae;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .texto p {
+    color: #aaa5a5;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Botón de catálogo */
+  .boton-catalogo {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .boton-catalogo:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para móviles */
+  @media (max-width: 768px) {
+    .imagenes img {
+        max-width: 100%;
+    }
+  
+    h1 {
+        font-size: 1.6rem;
+    }
+  
+    .texto h2 {
+        font-size: 1.5rem;
+    }
+  
+    p, .texto p {
+        font-size: 1rem;
+    }
+  
+    .container {
+        padding: 20px;
+    }
+  
+    .boton-catalogo {
+        font-size: 0.9rem;
+        padding: 10px 25px;
+    }
+  }
+  

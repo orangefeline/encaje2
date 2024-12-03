@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/catalogo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Catalog</title>
+
+      </head>
+      <body>
+        <nav>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a class="na" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26px"
+                  viewBox="0 -960 960 960"
+                  width="26px"
+                  fill="#e8eaed"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  /></svg
+              ></a>
+            </li>
+            <li><a class="na" href="index.html">Inicio</a></li>
+            <li><a class="na" href="nosotros.html">Nosotros</a></li>
+            <li><a class="na" href="catalogo.html">Galería</a></li>
+            <li><a class="na" href="contacto.html">Contactanos</a></li>
+          </ul>
+          <ul>
+            <li class="logo"><a class="ligo" href="#"><img src="imagenes/Untitled (1) (1)(1).png"></a></li>
+            <li class="hideOnMobile"><a class="na" href="index.html">Inicio</a></li>
+            <li class="hideOnMobile"><a class="na" href="nosotros.html">Nosotros</a></li>
+            <li class="hideOnMobile"><a class="na" href="catalogo.html">Galería</a></li>
+            <li class="hideOnMobile"><a class="na" href="contacto.html">Contacto</a></li>
+            <li onclick="showSidebar()" class="menu-button">
+              <a class="na" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26px"
+                  viewBox="0 -960 960 960"
+                  width="26px"
+                  fill="#e8eaed"
+                >
+                  <path
+                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </nav>
+          
+      </div>
+    </header>
+   
+    <div class="gallery">
+      <div class="gallery-item">
+          <img src="imagenes/Diseño sin título - 1.jpeg" alt="Imagen 1">
+      </div>
+      <div class="gallery-item">
+          <img src="imagenes/Diseño sin título - 3.jpeg" alt="Imagen 2">
+      </div>
+      <div class="gallery-item">
+          <img src="imagenes/Diseño sin título - 2.jpeg" alt="Imagen 3">
+      </div>
+      <div class="gallery-item">
+          <img src="imagenes/Diseño sin título - 1.jpeg" alt="Imagen 4">
+      </div>
+  
+<!--Pie de pagina-->
+      
+
+        <script src="css/script.js"></script>
+        
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor:true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect:{
+            depth:500,
+            modifer:1,
+            slidesShadows:true,
+            rotate:0,
+            stretch:0
+        }
+    })
+</script>
+    </body>
+  </html>
+  
